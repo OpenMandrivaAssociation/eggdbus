@@ -14,6 +14,7 @@ Source0: http://cgit.freedesktop.org/~david/eggdbus/snapshot/%{name}-%{version}.
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: dbus-glib-devel
 BuildRequires: gtk-doc
+BuildRequires: libtool
 
 %description
 Experimental D-Bus bindings for GObject.
