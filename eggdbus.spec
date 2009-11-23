@@ -5,12 +5,12 @@
 
 Summary: Experimental D-Bus bindings for GObject
 Name: eggdbus
-Version: 0.5
+Version: 0.6
 Release: %mkrel 1
 License: LGPLv2
 Group: System/Libraries
 URL: http://cgit.freedesktop.org/~david/eggdbus
-Source0: http://people.freedesktop.org/~david/%{name}-%{version}.tar.gz
+Source0: http://cgit.freedesktop.org/~david/eggdbus/snapshot/%{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: dbus-glib-devel
 BuildRequires: gtk-doc
@@ -38,6 +38,7 @@ Development files for EggDBus.
 
 %prep
 %setup -q
+./autogen.sh
 
 %build
 %configure2_5x --enable-gtk-doc --disable-static
