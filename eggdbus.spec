@@ -6,7 +6,7 @@
 Summary: Experimental D-Bus bindings for GObject
 Name: eggdbus
 Version: 0.6
-Release: %mkrel 1
+Release: %mkrel 2
 License: LGPLv2
 Group: System/Libraries
 URL: http://cgit.freedesktop.org/~david/eggdbus
