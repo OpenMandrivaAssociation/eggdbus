@@ -47,12 +47,12 @@ Development files for EggDBus.
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
-rm -rf $RPM_BUILD_ROOT%{_datadir}/gtk-doc/html/tests
+rm -rf %{buildroot}%{_datadir}/gtk-doc/html/tests
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %files -n %libname
