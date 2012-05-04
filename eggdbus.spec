@@ -63,7 +63,6 @@ rm -rf %{buildroot}
 %files -n %develname
 %defattr(-,root,root)
 %{_libdir}/lib*.so
-%{_libdir}/lib*.la
 %{_libdir}/pkgconfig/*.pc
 %{_includedir}/*
 %{_datadir}/gtk-doc/html/eggdbus
