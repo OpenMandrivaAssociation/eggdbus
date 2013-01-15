@@ -11,6 +11,7 @@ License:	LGPLv2
 Group:		System/Libraries
 URL:		http://cgit.freedesktop.org/~david/eggdbus
 Source0:	http://cgit.freedesktop.org/~david/eggdbus/snapshot/%{name}-%{version}.tar.bz2
+Patch0:		eggdbus-0.6-automake-1.13.patch
 BuildRequires:	dbus-glib-devel
 BuildRequires:	gtk-doc
 BuildRequires:	libtool
@@ -38,6 +39,8 @@ Development files for EggDBus.
 
 %prep
 %setup -q
+%apply_patches
+autoheader
 ./autogen.sh
 
 %build
