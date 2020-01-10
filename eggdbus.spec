@@ -40,7 +40,7 @@ Development files for EggDBus.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 autoheader
 ./autogen.sh
 
