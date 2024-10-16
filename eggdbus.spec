@@ -9,7 +9,7 @@ Version:	0.6
 Release:	13
 License:	LGPLv2
 Group:		System/Libraries
-Url:		http://cgit.freedesktop.org/~david/eggdbus
+Url:		https://cgit.freedesktop.org/~david/eggdbus
 Source0:	http://cgit.freedesktop.org/~david/eggdbus/snapshot/%{name}-%{version}.tar.gz
 Patch0:		eggdbus-0.6-automake-1.13.patch
 
