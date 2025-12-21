@@ -13,6 +13,11 @@ Url:		https://cgit.freedesktop.org/~david/eggdbus
 Source0:	http://cgit.freedesktop.org/~david/eggdbus/snapshot/%{name}-%{version}.tar.gz
 Patch0:		eggdbus-0.6-automake-1.13.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtk-doc
 BuildRequires:	libtool
 BuildRequires:	pkgconfig(dbus-glib-1)
